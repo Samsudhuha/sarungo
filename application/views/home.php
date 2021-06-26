@@ -66,23 +66,15 @@
 										<div class="col-sm-7">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-txt">
-													<h4>BHS</h4>
-													<h2>Sarung Motif</h2>
+													<h4>great design collection</h4>
+													<h2>cloth covered accent chair</h2>
 													<p>
-													Merk sarung terbaik yang pertama berasal dari merek BHS.
-
-													Bagi Anda yang belum tahu, sarung ini merupakan sarung dengan kelas premium yang sudah sangat populer.
-
-													Produsennya adalah Behaestex, sebuah perusahaan yang telah berdiri sejak tahun 1953.
-
-													Sarung tenun BHS menjadi produk yang paling mahal.
-
-													Tak heran harga sarung BHS ini bisa mencapai $700.
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
 													</p>
 													<div class="packages-price">
 														<p>
-															$ 700.00
-															<del>$ 1499.00</del>
+															$ 399.00
+															<del>$ 499.00</del>
 														</p>
 													</div>
 												</div><!--/.welcome-hero-txt-->
@@ -91,7 +83,7 @@
 										<div class="col-sm-5">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-img">
-													<img src="<?php echo base_url('image/bhs.jpg'); ?>" alt="slider image">
+													<img src="<?php echo base_url('public/furn/assets/images/slider/slider1.png')?>" alt="slider image">
 												</div><!--/.welcome-hero-txt-->
 											</div><!--/.single-welcome-hero-->
 										</div><!--/.col-->
@@ -110,20 +102,14 @@
 										<div class="col-sm-7">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-txt">
-													<h4>Sapphire</h4>
-													<h2>Sarung Corak</h2>
+													<h4>great design collection</h4>
+													<h2>mapple wood accent chair</h2>
 													<p>
-													Sarung Sapphire juga termasuk salah satu andalan bagi masyarakat Indonesia.
-
-													Kain sarung Sapphire dibuat menggunakan bahan katun berkualitas tinggi yang tak perlu diragukan lagi kenyamanannya.
-
-													Selain kain motif katun, sarung Sapphire juga tersedia dalam beragam motif mulai dari motif lilin lebar, maestro, dan motif lainnya.
-
-													Harga sarung Sapphire bisa didapatkan mulai dari $70.
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
 													</p>
 													<div class="packages-price">
 														<p>
-															$ 70
+															$ 199.00
 															<del>$ 299.00</del>
 														</p>
 													</div>
@@ -133,7 +119,7 @@
 										<div class="col-sm-5">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-img">
-													<img src="<?php echo base_url('image/sapphire.jpg'); ?>" alt="slider image">
+													<img src="<?php echo base_url('public/furn/assets/images/slider/slider2.png'); ?>" alt="slider image">
 												</div><!--/.welcome-hero-txt-->
 											</div><!--/.single-welcome-hero-->
 										</div><!--/.col-->
@@ -152,20 +138,14 @@
 										<div class="col-sm-7">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-txt">
-													<h4>Gajah Duduk</h4>
-													<h2>Sarung Duduk</h2>
+													<h4>great design collection</h4>
+													<h2>valvet accent arm chair</h2>
 													<p>
-													Merk sarung terbaik dengan jenama (brand) Gajah Duduk ini sudah banyak wara-wiri di layar kaca.
-
-													Tak heran bila hampir semua masyarakat Indonesia mengenal produk satu ini.
-
-													Sarung Gajah Duduk juga dikenal sebagai sarung berkualitas premium dengan banyak pilihan motif menarik.
-
-													Harga sarung Gajah Duduk pun cukup murah, bisa dibeli mulai dari $58.
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiuiana smod tempor  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
 													</p>
 													<div class="packages-price">
 														<p>
-															$ 58.00
+															$ 299.00
 															<del>$ 399.00</del>
 														</p>
 													</div>
@@ -175,7 +155,7 @@
 										<div class="col-sm-5">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-img">
-													<img src="<?php echo base_url('image/gajahduduk.jpg'); ?>" alt="slider image">
+													<img src="<?php echo base_url('public/furn/assets/images/slider/slider3.png'); ?>" alt="slider image">
 												</div><!--/.welcome-hero-txt-->
 											</div><!--/.single-welcome-hero-->
 										</div><!--/.col-->
@@ -279,19 +259,11 @@
 						<div class="col-md-3">
 							<div class="single-populer-products">
 								<div class="single-populer-product-img mt40">
-									<img src="<?php echo base_url('image/atlas.jpg'); ?>" alt="populer-products images">
+									<img src="<?php echo base_url('public/furn/assets/images/populer-products/p1.png'); ?>" alt="populer-products images">
 								</div>
-								<h2>Atlas</h2>
+								<h2>arm chair</h2>
 								<div class="single-populer-products-para">
-									<p>Membeli sarung terbaik pasti tak bisa terlepas dari pilihan sarung Atlas.
-
-									Pasalnya, sarung atlas tidak hanya dikenal sebagai produk yang nyaman digunakan tetapi juga ekonomis nilainya.
-
-									Sarung Atlas tak hanya tersedia untuk ukuran dewasa, tetapi juga untuk anak-anak.
-
-									Harga sarung atlas sendiri cukup terjangkau, mulai dari $55 hingga $140.
-
-									</p>
+									<p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
 								</div>
 							</div>
 						</div>
@@ -301,22 +273,16 @@
 									<div class="row">
 										<div class="col-md-4 col-sm-12">
 											<div class="single-inner-populer-product-img">
-												<img src="<?php echo base_url('image/wadimor.jpg'); ?>" alt="populer-products images">
+												<img src="<?php echo base_url('public/furn/assets/images/populer-products/p2.png'); ?>" alt="populer-products images">
 											</div>
 										</div>
 										<div class="col-md-8 col-sm-12">
 											<div class="single-inner-populer-product-txt">
 												<h2>
-													Wadimor
+														latest designed stool <span>and</span> chair
 												</h2>
 												<p>
-												Sarung Wadimor, jargon iklannya di layar kaca begitu melekat di benak kita.
-												
-												Motto sarung ini yang berbunyi “Wadimor sarung khas istimewa kebanggaan Indonesia”, sudah menggambarkan kualitasnya.
-
-												Nama-nama produk sarung Wadimor pun sangat unik, seunik motif-motifnya.
-
-												Bahkan, ada varian produknya yang dinamani Hujan Gerimis Gunungan dan Sarung Relief, lo!
+													Edi ut perspiciatis unde omnis iste natusina error sit voluptatem accusantium doloret mque laudantium, totam rem aperiam.
 												</p>
 												<div class="populer-products-price">
 													<h4>Sales Start from <span>$99.00</span></h4>
@@ -331,17 +297,11 @@
 							<div class="single-populer-products">
 								<div class="single-populer-products">
 									<div class="single-populer-product-img">
-										<img src="<?php echo base_url('image/lamiri.jpg'); ?>" alt="populer-products images">
+										<img src="<?php echo base_url('public/furn/assets/images/populer-products/p3.png'); ?>" alt="populer-products images">
 									</div>
-									<h2>Lamiri</h2>
+									<h2>hanging lamp</h2>
 									<div class="single-populer-products-para">
-										<p>Mungkin tak banyak yang mengenal produk sarung Lamiri.
-
-										Padahal, sarung Lamiri juga memiliki kualitas yang tak kalah baiknya.
-
-										Sarung Lamiri sendiri diproduksi oleh PT Ibrahim Manrapi sejak tahun 1939 di Kabupaten Wajo, Sulawesi Selatan.
-
-										Cara produksinya menggunakan ATMB, sehingga harga sarung Lamiri pun cukup tinggi mulai dari $500.</p>
+										<p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
 									</div>
 								</div>
 							</div>
@@ -387,6 +347,40 @@
 		
 		</section><!--/.new-arrivals-->
 		<!--new-arrivals end -->
+
+		<!--sofa-collection start -->
+		<section id="sofa-collection">
+			<div class="owl-carousel owl-theme" id="collection-carousel">
+				<div class="sofa-collection collectionbg1">
+					<div class="container">
+						<div class="sofa-collection-txt">
+							<h2>unlimited sofa collection</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							</p>
+							<div class="sofa-collection-price">
+								<h4>strting from <span>$ 199</span></h4>
+							</div>
+						</div>
+					</div>	
+				</div><!--/.sofa-collection-->
+				<div class="sofa-collection collectionbg2">
+					<div class="container">
+						<div class="sofa-collection-txt">
+							<h2>unlimited dainning table collection</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							</p>
+							<div class="sofa-collection-price">
+								<h4>strting from <span>$ 299</span></h4>
+							</div>
+						</div>
+					</div>
+				</div><!--/.sofa-collection-->
+			</div><!--/.collection-carousel-->
+
+		</section><!--/.sofa-collection-->
+		<!--sofa-collection end -->
 
 		<!--feature start -->
 		<section id="feature" class="feature">
@@ -434,7 +428,7 @@
 						<div class="col-sm-4">
 							<div class="single-blog">
 								<div class="single-blog-img">
-									<img src="<?php echo base_url('image/korma.jpg'); ?>" alt="blog image">
+									<img src="<?php echo base_url('public/furn/assets/images/blog/b1.jpg'); ?>" alt="blog image">
 									<div class="single-blog-img-overlay"></div>
 								</div>
 								<div class="single-blog-txt">
@@ -450,7 +444,7 @@
 						<div class="col-sm-4">
 							<div class="single-blog">
 								<div class="single-blog-img">
-									<img src="<?php echo base_url('image/mangga.jpg'); ?>" alt="blog image">
+									<img src="<?php echo base_url('public/furn/assets/images/blog/b2.jpg'); ?>" alt="blog image">
 									<div class="single-blog-img-overlay"></div>
 								</div>
 								<div class="single-blog-txt">
@@ -465,7 +459,7 @@
 						<div class="col-sm-4">
 							<div class="single-blog">
 								<div class="single-blog-img">
-									<img src="<?php echo base_url('image/unggul.jpg'); ?>" alt="blog image">
+									<img src="<?php echo base_url('public/furn/assets/images/blog/b3.jpg'); ?>" alt="blog image">
 									<div class="single-blog-img-overlay"></div>
 								</div>
 								<div class="single-blog-txt">
