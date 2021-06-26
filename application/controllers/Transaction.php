@@ -61,10 +61,13 @@ class Transaction extends CI_Controller {
 	{
 		$user 	 = $this->user;
 
-		$data['transactions'] = $this->transactionModel->getTransactionCart($user['id']);
 		$data['total_price'] = 0;
-		for ($i=0; $i < count($data['transactions']); $i++) { 
-			$data['total_price'] = $data['total_price'] + ((int) $data['transactions'][$i]->total * (int) $data['transactions'][$i]->price);
+		$data['transactions'] = [];
+		if ($user != null) {
+			$data['transactions'] = $this->transactionModel->getTransactionCart($user['id']);
+			for ($i=0; $i < count($data['transactions']); $i++) { 
+				$data['total_price'] = $data['total_price'] + ((int) $data['transactions'][$i]->total * (int) $data['transactions'][$i]->price);
+			}
 		}
 		$this->load->view('invoice', $data);
 	}
