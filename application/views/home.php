@@ -205,7 +205,7 @@
 											<?php } ?>
 				                            <li class="total">
 				                                <span>Total: $<?php echo $total_price ?></span>
-				                                <a class="btn-cart pull-right" href='<?php echo base_url('transaction/viewTransaction/') ?>'>view cart</a>
+				                                <button class="btn-cart pull-right" onclick="window.location.href='<?php echo base_url('transaction/viewTransaction/') ?>'">view cart</button>
 				                            </li>
 				                        </ul>
 				                    </li><!--/.dropdown-->

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>Dashboard</title>
+  <title>Transaction</title>
   <!-- Favicon -->
   <link rel="icon" href="<?php echo base_url('public/argon-dashboard-master/assets/img/brand/favicon.png') ?>" type="image/png">
   <!-- Fonts -->
@@ -35,7 +35,7 @@
           <!-- Nav items -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="<?php echo base_url('admin') ?>">
+              <a class="nav-link" href="<?php echo base_url('admin') ?>">
                 <i class="ni ni-tv-2 text-primary"></i>
                 <span class="nav-link-text">Dashboard</span>
               </a>
@@ -47,7 +47,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('transaction') ?>">
+              <a class="nav-link  active" href="<?php echo base_url('transaction') ?>">
                 <i class="ni ni-cart text-primary"></i>
                 <span class="nav-link-text">Transaction</span>
               </a>
@@ -101,7 +101,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="media align-items-center">
-                <i class="ni ni-circle-08"></i>
+                  <i class="ni ni-circle-08"></i>
                   <div class="media-body  ml-2  d-none d-lg-block">
                     <span class="mb-0 text-sm  font-weight-bold"><?php echo $user['name'] ?></span>
                   </div>
@@ -145,140 +145,65 @@
         <div class="header-body">
           <div class="row align-items-center py-4">
           </div>
-          <!-- Card stats -->
-          <div class="row">
-            <div class="col-xl-3 col-md-6">
-              <div class="card card-stats">
-                <!-- Card body -->
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Total Product</h5>
-                      <span class="h2 font-weight-bold mb-0"><?php echo $total_product ?></span>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
-                        <i class="ni ni-active-40"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6">
-              <div class="card card-stats">
-                <!-- Card body -->
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Total Users</h5>
-                      <span class="h2 font-weight-bold mb-0"><?php echo $total_user ?></span>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
-                        <i class="ni ni-chart-pie-35"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6">
-              <div class="card card-stats">
-                <!-- Card body -->
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Total Income</h5>
-                      <span class="h2 font-weight-bold mb-0">$<?php echo $total_income ?></span>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
-                        <i class="ni ni-money-coins"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6">
-              <div class="card card-stats">
-                <!-- Card body -->
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Orders</h5>
-                      <span class="h2 font-weight-bold mb-0"><?php echo $total_order ?></span>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
-                        <i class="ni ni-chart-bar-32"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
     <!-- Page content -->
+    <!-- Dark table -->
     <div class="container-fluid mt--6">
       <div class="row">
-        <div class="col-xl-8">
-          <div class="card bg-default">
-            <div class="card-header bg-transparent">
-              <div class="row align-items-center">
-                <div class="col">
-                  <h6 class="text-light text-uppercase ls-1 mb-1">Overview</h6>
-                  <h5 class="h3 text-white mb-0">Sales value</h5>
-                </div>
-                <div class="col">
-                  <ul class="nav nav-pills justify-content-end">
-                    <li class="nav-item mr-2 mr-md-0" data-toggle="chart" data-target="#chart-sales-dark" data-update='{"data":{"datasets":[{"data":[0, 20, 10, 30, 15, 40, 20, 60, 60]}]}}' data-prefix="$" data-suffix="k">
-                      <a href="#" class="nav-link py-2 px-3 active" data-toggle="tab">
-                        <span class="d-none d-md-block">Month</span>
-                        <span class="d-md-none">M</span>
-                      </a>
-                    </li>
-                    <li class="nav-item" data-toggle="chart" data-target="#chart-sales-dark" data-update='{"data":{"datasets":[{"data":[0, 20, 5, 25, 10, 30, 15, 40, 40]}]}}' data-prefix="$" data-suffix="k">
-                      <a href="#" class="nav-link py-2 px-3" data-toggle="tab">
-                        <span class="d-none d-md-block">Week</span>
-                        <span class="d-md-none">W</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <!-- Chart -->
-              <div class="chart">
-                <!-- Chart wrapper -->
-                <canvas id="chart-sales-dark" class="chart-canvas"></canvas>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4">
+        <div class="col">
           <div class="card">
-            <div class="card-header bg-transparent">
-              <div class="row align-items-center">
-                <div class="col">
-                  <h6 class="text-uppercase text-muted ls-1 mb-1">Performance</h6>
-                  <h5 class="h3 mb-0">Total orders</h5>
-                </div>
-              </div>
+            <!-- Card header -->
+            <div class="card-header border-0">
+              <h3 class="mb-0">List Transaction</h3>
             </div>
-            <div class="card-body">
-              <!-- Chart -->
-              <div class="chart">
-                <canvas id="chart-bars" class="chart-canvas"></canvas>
-              </div>
+            <!-- Light table -->
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col" class="sort" data-sort="name">Customer Name</th>
+                    <th scope="col" class="sort" data-sort="name">Product Name</th>
+                    <th scope="col" class="sort" data-sort="budget">Total</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody class="list">
+                    <?php for ($i=0; $i < count($data); $i++) { ?>
+                        <tr>
+                          <th scope="row">
+                          <div class="media align-items-center">
+                              <div class="media-body">
+                                <span class="name mb-0 text-sm"><?php echo $data[$i]->username ?></span>
+                              </div>
+                            </div>
+                          </th>
+                          <td class="budget">
+                            <?php echo $data[$i]->product_name ?>
+                          </td>
+                          <td>
+                            <span class="badge badge-dot mr-4">
+                              <span class="status"><?php echo $data[$i]->total ?></span>
+                            </span>
+                          </td>
+                          <td>
+                            <span class="badge badge-dot mr-4">
+                                <?php if($data[$i]->payment == null) { ?>
+                                    <span class="type">Not Payment</span>
+                                <?php } else { ?>
+                                    <span class="type">Payment</span>
+                                <?php } ?>
+                            </span>
+                          </td>
+                        </tr>
+                    <?php } ?>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </div>
@@ -294,6 +219,19 @@
   <script src="<?php echo base_url('public/argon-dashboard-master/assets/vendor/chart.js/dist/Chart.extension.js') ?>"></script>
   <!-- Argon JS -->
   <script src="<?php echo base_url('public/argon-dashboard-master/assets/js/argon.js?v=1.2.0') ?>"></script>
+  <script>
+      $(document).ready(function()
+        {
+            $("#blah").hide();
+        });
+    customFileLang.onchange = evt => {
+        const [file] = customFileLang.files
+        if (file) {
+            blah.src = URL.createObjectURL(file)
+        }
+        $("#blah").show();
+    }
+  </script>
 </body>
 
 </html>

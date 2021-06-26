@@ -8,7 +8,11 @@ class AuthModel extends CI_Model
 
     public function getUser($data)
     {
-        $db =  $this->db->get_where('users', $data)->row_array();
-        return $db;
+        return $this->db->get_where('users', $data)->row_array();
+    }
+
+    public function getAllUser()
+    {
+        return $this->db->get_where('users', array('role' => 2))->result();
     }
 }
